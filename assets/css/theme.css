@@ -1,0 +1,159 @@
+/* Couleurs bleues */
+:root {
+    --liens: #2487ce;
+    --lienshover: #469fdf;
+    --texte: #16507b;
+    --textesombre : #124265;
+  }
+  
+  /* Couleurs violettes */
+  :root {
+    --liens: #8b00ff;
+    --lienshover: #a700ff;
+    --texte: #6d00b7;
+    --textesombre: #5b008b;
+  }
+  
+  /* Couleurs vertes */
+  :root {
+  --liens: #00cc66;
+  --lienshover: #00e675;
+  --texte: #009933;
+  --textesombre: #007f29;
+  }
+  
+  /* Couleurs roses */
+  :root {
+  --liens: #ff99cc;
+  --lienshover: #ffb3d9;
+  --texte: #cc6699;
+  --textesombre: #b34c7e;
+  }
+  
+  /* Couleurs oranges */
+  :root {
+  --liens: #ff9933;
+  --lienshover: #ffb84d;
+  --texte: #cc7722;
+  --textesombre: #b35c1e;
+  }
+  
+  /* Couleurs grises */
+  :root {
+  --liens: #999999;
+  --lienshover: #b3b3b3;
+  --texte: #777777;
+  --textesombre: #555555;
+  }
+  
+  /* Couleurs jaunes */
+  :root {
+  --liens: #ffff00;
+  --lienshover: #ffff66;
+  --texte: #cccc00;
+  --textesombre: #999900;
+  }
+  
+  /* Couleurs rouges */
+  :root {
+  --liens: #ff0000;
+  --lienshover: #ff6666;
+  --texte: #cc0000;
+  --textesombre: #990000;
+  }
+  
+  /* Couleurs noires */
+  :root {
+  --liens: #000000;
+  --lienshover: #333333;
+  --texte: #666666;
+  --textesombre: #999999;
+  }
+  
+  /* Couleurs cyan */
+  :root {
+  --liens: #00ffff;
+  --lienshover: #66ffff;
+  --texte: #00cccc;
+  --textesombre: #009999;
+  }
+  
+  /* Couleurs magenta */
+  :root {
+  --liens: #ff00ff;
+  --lienshover: #ff66ff;
+  --texte: #cc00cc;
+  --textesombre: #990099;
+  }
+  
+  /* Couleurs marron */
+  :root {
+  --liens: #996633;
+  --lienshover: #b37e4d;
+  --texte: #804c22;
+  --textesombre: #6b3e1e;
+  }
+  
+  /* Couleurs beiges */
+  :root {
+  --liens: #ffffcc;
+  --lienshover: #ffffe6;
+  --texte: #cccc99;
+  --textesombre: #999966;
+  }
+  
+  /* Couleurs pastel */
+  :root {
+  --liens: #b3e6ff;
+  --lienshover: #ccffff;
+  --texte: #99ccff;
+  --textesombre: #66b3ff;
+  }
+  
+  /* Couleurs terreuses */
+  :root {
+  --liens: #996633;
+  --lienshover: #b37e4d;
+  --texte: #804c22;
+  --textesombre: #6b3e1e;
+  }
+  
+  /* Couleurs grises pastel */
+  :root {
+  --liens: #d3d3d3;
+  --lienshover: #e6e6e6;
+  --texte: #bbbbbb;
+  --textesombre: #999999;
+  }
+  
+  /* Couleurs violettes pastel */
+  :root {
+  --liens: #cc99ff;
+  --lienshover: #e6b3ff;
+  --texte: #b366cc;
+  --textesombre: #993399;
+  }
+  
+  /* Couleurs roses pastel */
+  :root {
+  --liens: #ffccff;
+  --lienshover: #ffd9ff;
+  --texte: #ff99cc;
+  --textesombre: #cc6699;
+  }
+  
+  /* Couleurs jaunes pastel */
+  :root {
+  --liens: #ffffb3;
+  --lienshover: #ffffcc;
+  --texte: #ffff99;
+  --textesombre: #ffff66;
+  }
+  
+  /* Couleurs vertes pastel */
+  :root {
+  --liens: #ccffcc;
+  --lienshover: #e6ffe6;
+  --texte: #99cc99;
+  --textesombre: #669966;
+  }

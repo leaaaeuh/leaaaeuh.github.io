@@ -1,0 +1,32 @@
+section {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: #f8fbfe;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        padding-bottom: 0;
+        background: linear-gradient(180deg, var(--textesombre) 0%, var(--texte) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    }
+
+    p {
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #919191;
+    }
+}

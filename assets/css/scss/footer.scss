@@ -1,0 +1,135 @@
+#footer {
+	color: #444444;
+	font-size: 14px;
+	background: #f8fbfe;
+	box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+	.footer-top {
+		padding: 60px 0 30px 0;
+		background: #fff;
+		.footer-contact {
+			margin-bottom: 30px;
+			h3 {
+				font-size: 26px;
+				margin: 0 0 10px 0;
+				padding: 2px 0 2px 0;
+				line-height: 1;
+				font-weight: 300;
+			}
+			p {
+				font-size: 14px;
+				line-height: 24px;
+				margin-bottom: 0;
+				font-family: "Raleway", sans-serif;;
+				color: #777777;
+			}
+		}
+		h4 {
+			font-size: 16px;
+			font-weight: bold;
+			color: var(--textesombre);
+			position: relative;
+			padding-bottom: 12px;
+		}
+		.footer-links {
+			margin-bottom: 30px;
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				i {
+					padding-right: 2px;
+					color: var(--liens);
+					font-size: 18px;
+					line-height: 1;
+				}
+				li {
+					padding: 10px 0;
+					display: flex;
+					align-items: center;
+					&:first-child {
+						padding-top: 0;
+					}
+				}
+				a {
+					color: #777777;
+					transition: 0.3s;
+					display: inline-block;
+					line-height: 1;
+					&:hover {
+						text-decoration: none;
+						color: var(--liens);
+					}
+				}
+			}
+		}
+	}
+	.footer-newsletter {
+		font-size: 15px;
+		h4 {
+			font-size: 16px;
+			font-weight: bold;
+			color: #444444;
+			position: relative;
+			padding-bottom: 12px;
+		}
+		form {
+			margin-top: 30px;
+			background: #fff;
+			padding: 6px 10px;
+			position: relative;
+			border-radius: 5px;
+			text-align: left;
+			border: 1px solid #cde5f6;
+			input[type=email] {
+				border: 0;
+				padding: 4px 8px;
+				width: calc(100% - 100px);
+                outline: none;
+			}
+			input[type=submit] {
+				position: absolute;
+				top: -1px;
+				right: -2px;
+				bottom: -1px;
+				border: 0;
+				background: none;
+				font-size: 16px;
+				padding: 0 20px 2px 20px;
+				background: var(--liens);
+				color: #fff;
+				transition: 0.3s;
+				border-radius: 0 5px 5px 0;
+				box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+				&:hover {
+					background: var(--lienshover);
+				}
+			}
+		}
+	}
+	.credits {
+		padding-top: 5px;
+		font-size: 13px;
+		color: #444444;
+	}
+	.social-links {
+		a {
+			font-size: 18px;
+			display: inline-block;
+			background: var(--liens);
+			color: #fff;
+			line-height: 1;
+			padding: 8px 0;
+			margin: 0 4px 4px 0;
+			border-radius: 5px;
+			text-align: center;
+			width: 36px;
+			height: 36px;
+			transition: 0.3s;
+			&:hover {
+				background: var(--liens);
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+}

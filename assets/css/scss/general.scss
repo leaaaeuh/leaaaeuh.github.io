@@ -1,0 +1,43 @@
+:root {
+    --liens: #cc99ff;
+    --lienshover: #e6b3ff;
+    --texte: #b366cc;
+    --textesombre: #993399;
+    --primary-color: #444444;
+    --secondary-color: #124265;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: var(--primary-color);
+}
+
+h1 {
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--liens);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--lienshover);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.model_name {
+    background: linear-gradient(180deg, var(--textesombre) 0%, var(--texte) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
